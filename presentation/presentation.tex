@@ -45,7 +45,7 @@
 
 
 \title{From Rationalism to Empiricism in Software Testing Education Through Gamification}
-% \subtitle{}
+\subtitle{INTED 2024}
 \author{Niels Doorn \orcid{0000-0002-0680-4443} \and Tanja E.J. Vos \orcid{0000-0002-6003-9113} \and Beatriz Marín \orcid{0000-0001-8025-0023}}
 \date{2024-3-4}
 
@@ -83,17 +83,17 @@
 \begin{frame}{Software Testing in CS Education}
 \begin{itemize}
     \item Integrating it into Computer Science curricula is challenging~\cite{garousi2020software, scatalon2020teaching}.
-    \item Rational design paradigm is often used:
+    \item Often, a rational design paradigm is used:
     \begin{itemize}
         \item Leading students to use a `developer approach' to testing~\cite{doorn2023towards}.
         \item Lacking empirical exploration and experimentation.
     \end{itemize} 
-    \item We believe a shift to a design paradigm based on empiricism is needed.
-    \item No knowledge on didactic approaches available, we think an approach based on abductive reasoning works.
+    \item A shift to a design paradigm based on empiricism is needed.
+    \item Little knowledge on didactic approaches is available.%, we think an approach based on abductive reasoning works.
     \item The use of serious games can be helpful.
     % \item We hypothesize that combining gamification with Socratic questioning can significantly improve the learning of software testing.
     % , fostering a shift towards an empirical design paradigm that emphasizes reflection-in-action and critical thinking.
-    \item We started with the development of a serious game, where students devise a testing strategy for a system under test.
+    \item We started with the development of a serious game.%, where students devise a testing strategy for a system under test.
     % \item We use Socratic questioning as innovative approaches to enhance software testing education. 
     % These methods aim to foster engagement, practical application, immediate feedback, collaborative learning, and complex problem-solving.
 \end{itemize}
@@ -104,15 +104,15 @@
 \begin{frame}[allowframebreaks]
     \frametitle{Theoretical background}
     \begin{itemize}
-        \item Gamification is effective in software engineering education through: Real-world scenarios, Competitive elements, Immediate feedback, Interactive activities, and Collaboration~\cite{8658524}.
+        \item Gamification is effective in CS education through: Real-world scenarios, competitive elements, immediate feedback, interactive activities, and collaboration~\cite{8658524}.
         \item Gamification is applicable across various educational strategies and contexts~\cite{informatics9040075, hirsh2022, Tan_Chong_2023}.%, enhancing engagement in software measurement processes, software testing education, and integration of modern technology stacks.
         \item Innovative tools and techniques include educational chatbots and the use of serious games in secure programming~\cite{10.1145/3350768.3352456,8802503}.
         % \item The educational impact and methodologies section discusses successful game-based interventions, methodologies for evaluating such interventions, and the Scrum Game Challenge for learning Scrum methodologies.
-        \item Games should include meaningful competition and engagement, and there are risks of oversimplification and negative impacts like decreased intrinsic motivation~\cite{8658524}.
-        \item Offline games such as TestSphere and `Would Heu-Risk It?'~\cite{BibEntry2023Sep} card games are used to enhance software testing discussions, collaboration, and strategy design.
-        \item Interactive methods like `The TestOpsy'~\cite{ChrisKenst2022Jun} and `Blackbox Puzzles'~\cite{BibEntry2022Feb} focus on dissecting the testing process and improving problem-solving skills in software testing.
+        \item Applying gamification can lead to oversimplification and have negative impacts like decreased intrinsic motivation~\cite{8658524}.
+        \item Offline games such as TestSphere and `Would Heu-Risk It?'~\cite{BibEntry2023Sep} card games can enhance software testing discussions, collaboration, and strategy design.
+        \item Methods like `The TestOpsy'~\cite{ChrisKenst2022Jun} and `Blackbox Puzzles'~\cite{BibEntry2022Feb} focus on the testing process and improving problem-solving skills.
         % \item A systematic review on game-based learning's impact on argumentation skills emphasizes the importance of game elements, instructional supports, and learning theories for enhancing argumentation skills through game-based environments.
-        \item Specific games such as `Testable'~\cite{8994972}, `Testing Maze'~\cite{10.1145/3613372.3614191}, `CleanGame'~\cite{10.1145/3350768.3352490}, and 'Code Defenders'~\cite{10.1145/3287324.3287471, 9155973} are designed to improve aspects of software testing education like unit testing, functional testing, code smell identification, and mutation testing.
+        \item Specific games such as `Testable'~\cite{8994972}, `Testing Maze'~\cite{10.1145/3613372.3614191}, `CleanGame'~\cite{10.1145/3350768.3352490}, and 'Code Defenders'~\cite{10.1145/3287324.3287471, 9155973} are designed to improve aspects like unit testing, functional testing, code smell identification, and mutation testing.
     \end{itemize}
 \end{frame}
 
@@ -182,26 +182,25 @@
         \item Students should follow an iterative process:
         \begin{itemize}
             \item form hypotheses based on observation and heuristics, 
-            \item design tests, 
-            \item execute them 
+            \item design tests and execute them,
             \item and analyse the feedback.
         \end{itemize}
     \end{itemize}
 \end{frame}
 
-\begin{frame}{Didactics for software testing: \\Abductive Reasoning}
-    \begin{blockquote}
-    If it looks like a duck, and quacks like a duck, we have at least to consider the possibility that we have a small aquatic bird of the family Anatidae on our hands\\
-    \textit{-- Douglas Adams}~\cite{adams1987dirk}.
-    \end{blockquote}
-\end{frame}
-
-\begin{frame}{Abductive reasoning}
+\begin{frame}{Didactics for software testing:\\Abductive Reasoning}
     Abductive reasoning is a form of logical inference that seeks the simplest and most likely conclusion from a set of observations.~\cite{ContributorstoWikimediaprojects2024Feb} 
     \begin{itemize}
         \item Basis for Design Thinking.
         \item Fits exploratory testing.
     \end{itemize}
+\end{frame}
+
+\begin{frame}{Didactics for software testing:\\Abductive Reasoning}
+    \begin{blockquote}
+    If it looks like a duck, and quacks like a duck, we have at least to consider the possibility that we have a small aquatic bird of the family Anatidae on our hands\\
+    \textit{-- Douglas Adams}~\cite{adams1987dirk}.
+    \end{blockquote}
 \end{frame}
 
 \section{Gamification}
@@ -211,6 +210,31 @@
     \begin{itemize}
         \item Development process of a serious game for software testing.
         \item Incorporating empirical methods and critical thinking.
+        \item Supporting different educational contexts.
+        \item Enabling didactics based on abductive reasoning.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Game based on TestSphere with Socrative Questioning}
+    \begin{itemize}
+        \item Starting with a System Under Test.
+        \item Identifying most relevant quality aspects.
+        \item Identifying risks for these aspects, supported with socrative questions.
+        \item Mitigate these risks with techniques.
+        \item Form an initial testing plan.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Socrative Questioning}
+    Socratic questions are a form of inquiry and discussion between individuals, based on asking and answering questions to stimulate critical thinking and to illuminate ideas.
+\end{frame}
+
+\begin{frame}{Examples of Socrative Questions used in the game}
+    \begin{itemize}
+        \item How does the system verify and ensure that the data processed is current and accurate?
+        \item In what ways does the system maintain the confidentiality and integrity of personal data?
+        \item Are there any performance benchmarks or metrics that the system is expected to meet?
+        \item What are the disaster recovery and business continuity plans for the system?
     \end{itemize}
 \end{frame}
 
@@ -218,10 +242,8 @@
     \begin{itemize}
         \item Overview of the pilot study conducted.
         \item Improvements observed in students' testing strategies.
+        \item Student's feel more secure about their tests.
     \end{itemize}
-    \textit{You work for a travel company. 
-The sales department wants to know what the average age is of the people who booked their holidays with your company. One of the developers in your team has developed a program to calculate the average age for a hundred people at the time. The program can handle up to a hundred dates of births and calculates the average age in years. It gets its data from a remote server as a .txt file, where each line contains the name and the age.
-}
 \end{frame}
 
 \begin{frame}{Wheel of socrative questions}
@@ -232,15 +254,15 @@ The sales department wants to know what the average age is of the people who boo
 \end{figure}
 \end{frame}
 
-% Socratic questions are a form of inquiry and discussion between individuals, based on asking and answering questions to stimulate critical thinking and to illuminate ideas. They are particularly useful in educational contexts, especially in subjects like computer science, where understanding concepts deeply is crucial. 
-
 \section{Future work}
 
 \setbeamertemplate{background canvas}[ou plain]
 \begin{frame}{Future Work}
     \begin{itemize}
-        \item Plans for further game development.
-        \item Upcoming empirical studies in various educational contexts.
+        \item Design of better game mechanics.
+        \item Validate the socratic questions.
+        \item Trials with students in different educational contexts.
+        \item Publish the game.
     \end{itemize}
 \end{frame}
 
@@ -280,7 +302,7 @@ The sales department wants to know what the average age is of the people who boo
 
 \setbeamertemplate{background canvas}[ou plain]
 \begin{frame}{Acknowledgements}
-    This work was funded by the ENACTEST - European innovation alliance for testing education (ERASMUS+ Project number 101055874, 2022-2025).
+    This work was funded by the ENACTEST -- European innovation alliance for testing education (ERASMUS+ Project number 101055874, 2022-2025). %And Kimmie, for her support when I needed it most. And her feedback on the game, basically, it was all her idea.
 \end{frame}
 
 \setbeamertemplate{background canvas}[ou plain]
