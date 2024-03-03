@@ -19,17 +19,19 @@
 \usepackage{subcaption}
 \usepackage{fontawesome5}
 % \usepackage[dutch]{babel} % Dutch text; e.g. accents, hyphenation
+% \usepackage[english]{babel} % English text; e.g. accents, hyphenation
+\usepackage[british]{babel}
 
 % \usepackage{listings} % to write program code
 \usepackage{hyperref} % URLs; e.g. \url{...}
 \usepackage{mathtools} % to write above arrow
 % \usepackage{listings}
 
-\usepackage[cache=false]{minted}
-\usemintedstyle{friendly}
-\setminted[python]{frame=lines,framesep=2mm}
-\setminted[java]{frame=lines,framesep=2mm}
-\setminted[sql]{frame=lines,framesep=2mm}
+% \usepackage[cache=false]{minted}
+% \usemintedstyle{friendly}
+% \setminted[python]{frame=lines,framesep=2mm}
+% \setminted[java]{frame=lines,framesep=2mm}
+% \setminted[sql]{frame=lines,framesep=2mm}
 
 \usepackage[style=ieee,backend=biber,doi=false,isbn=false,url=false,eprint=false]{biblatex}
 \bibliography{presentation}
@@ -44,7 +46,7 @@
 
 \title{From Rationalism to Empiricism in Software Testing Education Through Gamification}
 % \subtitle{}
-\author{Niels Doorn \orcid{0000-0002-0680-4443} \and Tanja E.J. Vos \orcid{0000-0002-6003-9113} \and \\ Beatriz Marín \orcid{0000-0001-8025-0023}}
+\author{Niels Doorn \orcid{0000-0002-0680-4443} \and Tanja E.J. Vos \orcid{0000-0002-6003-9113} \and Beatriz Marín \orcid{0000-0001-8025-0023}}
 \date{2024-3-4}
 
 \begin{document}
@@ -73,7 +75,7 @@
 \begin{frame}{Importance of software testing}
 \begin{figure}
     \centering
-    \includegraphics[width=0.3\linewidth]{presentation//images/bug.png}
+    \includegraphics[width=0.3\linewidth]{images/bug.png}
     \caption{Screenshot of an article titled ``A Leap Year Glitch Broke Self-Pay Gas Station Pumps Across New Zealand''~\cite{ScharonHarding2024Mar}}
 \end{figure}
 \end{frame}
@@ -117,7 +119,7 @@
 \begin{frame}{Some existing games related to software testing}
 \begin{figure}
     \centering
-    \includegraphics[width=0.75\linewidth]{presentation//images//games/codedefenders.png}
+    \includegraphics[width=0.75\linewidth]{images//games/codedefenders.png}
     \caption{CodeDefenders, an online game to learn mutation testing}
 \end{figure}
 \end{frame}
@@ -125,7 +127,7 @@
 \begin{frame}{Some existing games related to software testing}
 \begin{figure}
     \centering
-    \includegraphics[width=0.75\linewidth]{presentation//images//games/testable}
+    \includegraphics[width=0.75\linewidth]{images//games/testable}
     \caption{Testable - gamified tool to improve unit testing teaching}
 \end{figure}
 \end{frame}
@@ -133,7 +135,7 @@
 \begin{frame}{Some existing games related to software testing}
 \begin{figure}
     \centering
-    \includegraphics[width=0.75\linewidth]{presentation//images//games/testingmaze}
+    \includegraphics[width=0.75\linewidth]{images//games/testingmaze}
     \caption{Testing Maze, an educational puzzle game for teaching functional testing concepts and test specifications containing a fantasy narrative}
 \end{figure}
 \end{frame}
@@ -141,7 +143,7 @@
 \begin{frame}{Some existing games related to software testing}
 \begin{figure}
     \centering
-    \includegraphics[width=0.5\linewidth]{presentation//images//games/testsphere}
+    \includegraphics[width=0.5\linewidth]{images//games/testsphere}
     \caption{The Card Deck That Gets You Thinking and Talking About Software Testing and Quality}
 \end{figure}
 \end{frame}
@@ -149,7 +151,7 @@
 \begin{frame}{Some existing games related to software testing}
 \begin{figure}
     \centering
-    \includegraphics[width=0.5\linewidth]{presentation//images//games/would}
+    \includegraphics[width=0.5\linewidth]{images//games/would}
     \caption{`Would Heu-risk it?' is centered around risk analysis, heuristics, patterns/anti-patterns that affect us in designing, building, testing and running software}
 \end{figure}
 \end{frame}
@@ -169,7 +171,7 @@
 \begin{figure}
     \centering
     \vspace{-1cm}
-    \hspace*{-1.2cm}\includegraphics[width=1.2\linewidth]{presentation//images/plaatje.png}
+    \hspace*{-1.2cm}\includegraphics[width=1.2\linewidth]{images/plaatje.png}
 \end{figure}
 \end{frame}
 
@@ -225,7 +227,7 @@ The sales department wants to know what the average age is of the people who boo
 \begin{frame}{Wheel of socrative questions}
 \begin{figure}
     \centering
-    \includegraphics[width=0.5\linewidth]{presentation//images//wheel}
+    \includegraphics[width=0.5\linewidth]{images//wheel}
     \caption{"The Wheel of Socrative Questions," a game wheel designed for software testers}
 \end{figure}
 \end{frame}
@@ -234,7 +236,7 @@ The sales department wants to know what the average age is of the people who boo
 
 \section{Future work}
 
-\setbeamertemplate{background canvas}[ou pebbles]
+\setbeamertemplate{background canvas}[ou plain]
 \begin{frame}{Future Work}
     \begin{itemize}
         \item Plans for further game development.
@@ -252,21 +254,28 @@ The sales department wants to know what the average age is of the people who boo
 %     \end{itemize}
 % \end{frame}
 
-\setbeamertemplate{background canvas}[ou thanks]
-\begin{frame}{}
+\setbeamertemplate{background canvas}[ou plain]
+\begin{frame}{Thanks for your attention}
 
-\begin{flushright}
-\vspace{2cm}
-\begin{minipage}{6cm}
+% \begin{flushright}
+% \vspace{2cm}
+% \begin{minipage}{6cm}
 \begin{itemize}
     \item Software Testing is important.
     \item A shift to an approach based on empirisism is needed.
     \item Gamification is an approach to support this in multiple educational contexts.
     \item We did a pilot to gain insights using socrative questioning.
-    \item Game mechanics need be added.
+    \item Game mechanics need to be added.
 \end{itemize}
-\end{minipage}
-\end{flushright}
+
+% \end{minipage}
+% \end{flushright}
+
+\begin{figure}
+    \centering
+    \includegraphics[width=0.25\linewidth]{images//qr.png}
+    \caption{More information about my research on \url{https://research.nielsdoorn.nl}}
+\end{figure}
 \end{frame}
 
 \setbeamertemplate{background canvas}[ou plain]
