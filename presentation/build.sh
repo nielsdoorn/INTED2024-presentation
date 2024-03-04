@@ -8,3 +8,4 @@ echo lualatex run 2
 lualatex presentation.tex >/dev/null
 echo final lualatex run
 lualatex presentation.tex >/dev/null
+cp presentation.pdf /Users/nielsdoorn/PhD/nielsdoorn.github.io/INTED2024.pdf
