@@ -87,88 +87,35 @@
 \begin{frame}{Software Testing in CS Education}
 \begin{itemize}
     \item Integrating it into Computer Science curricula is challenging~\cite{garousi2020software, scatalon2020teaching}.
-    \item Often, a rational design paradigm is used:
-    \begin{itemize}
-        \item Leading students to use a `developer approach' to testing~\cite{doorn2023towards}.
-        \item Lacking exploration and experimentation.
-    \end{itemize} 
-    \item We need to shift to a design paradigm based on empiricism.
-    \item Little knowledge on didactic approaches is available.%, we think an approach based on abductive reasoning works.
-    \item The use of serious games can be helpful.
+    \item Often a \textbf{rational design paradigm} is used in CS programs.
+    % \item We need to shift to a design paradigm based on empiricism.
+    \item Little research on didactic approaches is available.%, we think an approach based on abductive reasoning works.
+    % \item In general, the use of serious games can be helpful.
     % \item We hypothesize that combining gamification with Socratic questioning can significantly improve the learning of software testing.
     % , fostering a shift towards an empirical design paradigm that emphasizes reflection-in-action and critical thinking.
-    \item We started with the development of a serious game.%, where students devise a testing strategy for a system under test.
+    % \item We started with the development of a serious game.%, where students devise a testing strategy for a system under test.
     % \item We use Socratic questioning as innovative approaches to enhance software testing education. 
     % These methods aim to foster engagement, practical application, immediate feedback, collaborative learning, and complex problem-solving.
 \end{itemize}
 \end{frame}
 
-\section{Gamification in CS}
-
-\begin{frame}[allowframebreaks]
-    \frametitle{Gamification in CS}
+\begin{frame}{Consequences}
+    The way we now teach software testing leads to:
     \begin{itemize}
-        \item Gamification is effective in CS education through: Real-world scenarios, competitive elements, immediate feedback, interactive activities, and collaboration~\cite{8658524}.
-        \item Gamification is applicable across various educational strategies and contexts~\cite{informatics9040075, hirsh2022, Tan_Chong_2023}.%, enhancing engagement in software measurement processes, software testing education, and integration of modern technology stacks.
-        \item Innovative tools and techniques include educational chatbots and the use of serious games in secure programming~\cite{10.1145/3350768.3352456,8802503}.
-        % \item The educational impact and methodologies section discusses successful game-based interventions, methodologies for evaluating such interventions, and the Scrum Game Challenge for learning Scrum methodologies.
-        \item Applying gamification can lead to oversimplification and have negative impacts like decreased intrinsic motivation~\cite{8658524}.
-        \item Offline games such as TestSphere and `Would Heu-Risk It?' card games can enhance software testing discussions, collaboration, and strategy design~\cite{testsphere, BibEntry2023Sep}.
-        \item Methods like `The TestOpsy' and `Blackbox Puzzles' focus on the testing process and improving problem-solving skills~\cite{ChrisKenst2022Jun, BibEntry2022Feb}.
-        % \item A systematic review on game-based learning's impact on argumentation skills emphasizes the importance of game elements, instructional supports, and learning theories for enhancing argumentation skills through game-based environments.
-        \item Specific games such as `Testable', `Testing Maze', `CleanGame', and 'Code Defenders' are designed to improve aspects like unit testing, functional testing, code smell identification, and mutation testing~\cite{8994972,10.1145/3613372.3614191,10.1145/3350768.3352490,10.1145/3287324.3287471,9155973}.
+        \item Students who use a `developer approach' to testing~\cite{doorn2023towards}.
+        \item This approach lacks exploration and experimentation.
     \end{itemize}
+    \vspace{1cm}
+    We need to shift the mental model of students away from this rational approach.
 \end{frame}
 
-\begin{frame}{Some existing games related to software testing I}
-\begin{figure}
-    \centering
-    \includegraphics[width=0.75\linewidth]{images//games/codedefenders.png}
-    \caption{CodeDefenders, an online game to learn mutation testing}
-\end{figure}
-\end{frame}
-
-\begin{frame}{Some existing games related to software testing II}
-\begin{figure}
-    \centering
-    \includegraphics[width=0.75\linewidth]{images//games/testable}
-    \caption{Testable - gamified tool to improve unit testing teaching}
-\end{figure}
-\end{frame}
-
-\begin{frame}{Some existing games related to software testing III}
-\begin{figure}
-    \centering
-    \includegraphics[width=0.75\linewidth]{images//games/testingmaze}
-    \caption{Testing Maze, an educational puzzle game for teaching functional testing concepts and test specifications containing a fantasy narrative}
-\end{figure}
-\end{frame}
-
-\begin{frame}{Some existing games related to software testing IV}
-\begin{figure}
-    \centering
-    \includegraphics[width=0.5\linewidth]{images//games/testsphere}
-    \caption{TestSphere, a card deck to support testers thinking and talking about testing}
-\end{figure}
-\end{frame}
-
-\begin{frame}{Some existing games related to software testing V}
-\begin{figure}
-    \centering
-    \includegraphics[width=0.5\linewidth]{images//games/would}
-    \caption{`Would Heu-risk it?' is centered around risk analysis, heuristics, patterns/anti-patterns of software testing}
-\end{figure}
-\end{frame}
-
-\section{Problem of teaching software testing}
-
-\begin{frame}{How we should teach software testing}
-    \begin{itemize}
-        \item Prevalence of `developer approach' in testing by students.
-        \item We need to shift their mental model.
-        \item We need the right didactic approach.
-    \end{itemize}
-\end{frame}
+% \begin{frame}{How we should teach software testing}
+%     \begin{itemize}
+%         \item Prevalence of `developer approach' in testing by students.
+%         \item We need to shift their mental model.
+%         \item We need the right didactic approach.
+%     \end{itemize}
+% \end{frame}
 
 \setbeamertemplate{background canvas}[ou plain]
 \begin{frame}[noframenumbering,plain]
@@ -179,56 +126,115 @@
 \end{figure}
 \end{frame}
 
-\begin{frame}{Shift to Empiricism}
-    \begin{itemize}
-        \item Need for an approach based on empiricism in teaching software testing.
-        \item Emphasis on experimentation and heuristic-based learning.
-        \item Students should follow an iterative process:
-        \begin{itemize}
-            \item form hypotheses based on observation and heuristics, 
-            \item design tests and execute them,
-            \item and analyse the feedback.
-        \end{itemize}
-    \end{itemize}
+% \begin{frame}{Shift to Empiricism}
+%     \begin{itemize}
+%         \item Need for an approach based on empiricism in teaching software testing.
+%         \item Emphasis on experimentation and heuristic-based learning.
+%         \item Students should follow an iterative process:
+%         \begin{itemize}
+%             \item form hypotheses based on observation and heuristics, 
+%             \item design tests and execute them,
+%             \item and analyse the feedback.
+%         \end{itemize}
+%     \end{itemize}
+% \end{frame}
+
+\begin{frame}{Abductive reasoning as the base for testing}
+    Abductive reasoning is a form of logical inference that seeks the simplest and most likely conclusion from a set of observations~\cite{ContributorstoWikimediaprojects2024Feb}.
 \end{frame}
 
-\begin{frame}{Didactics for software testing:\\Abductive Reasoning I}
-    Abductive reasoning is a form of logical inference that seeks the simplest and most likely conclusion from a set of observations.~\cite{ContributorstoWikimediaprojects2024Feb} 
-    \begin{itemize}
-        \item Basis for Design Thinking.
-        \item Fits exploratory testing.
-    \end{itemize}
+\begin{frame}{Abductive reasoning as the base for testing}
+    Abductive reasoning is a form of logical inference that seeks the simplest and most likely conclusion from a set of observations~\cite{ContributorstoWikimediaprojects2024Feb}.\\
+    \vspace{0.5cm}
+    This fits very well with exploratory testing because:\\
+    \vspace{0.5cm}
+    \textbf{What} the behaviour of the system looks like is unknown, \textbf{how} the design process of tests should look like is unknown. The \textbf{desired situation} is unknown, and so is \textbf{the road towards it}.
 \end{frame}
 
-\begin{frame}{Didactics for software testing:\\Abductive Reasoning II}
-    \begin{blockquote}
-    If it looks like a duck, and quacks like a duck, we have at least to consider the possibility that we have a small aquatic bird of the family Anatidae on our hands\\
-    \textit{-- Douglas Adams}~\cite{adams1987dirk}.
-    \end{blockquote}
-\end{frame}
+% \begin{frame}{Didactics for software testing:\\Abductive Reasoning}
+%     \begin{blockquote}
+%     If it looks like a duck, and quacks like a duck, we have at least to consider the possibility that we have a small aquatic bird of the family Anatidae on our hands\\
+%     \textit{-- Douglas Adams}~\cite{adams1987dirk}.
+%     \end{blockquote}
+% \end{frame}
 
-\begin{frame}{Didactics for software testing:\\Abductive Reasoning III}
-    \textbf{What} the SUT should look like is unknown, \textbf{how} the design process of tests should look like is unknown. The \textbf{desired situation} is unknown, and so is the road towards it.
-\end{frame}
+% \begin{frame}{Didactics for software testing:\\Abductive Reasoning}
+%     \textbf{What} the SUT should look like is unknown, \textbf{how} the design process of tests should look like is unknown. The \textbf{desired situation} is unknown, and so is the road towards it.
+% \end{frame}
 
-\section{Gamification}
+\section{Gamification in CS}
 
 \setbeamertemplate{background canvas}[ou plain]
 \begin{frame}{Development of a game to teach software testing}
+    Our goals for a serious game:
     \begin{itemize}
-        \item Development process of a serious game for software testing.
         \item Incorporating empirical methods and critical thinking.
         \item Supporting different educational contexts.
-        \item Enabling didactics based on abductive reasoning.
+        \item Enabling abductive reasoning.
     \end{itemize}
 \end{frame}
 
+\begin{frame}%[allowframebreaks]
+    \frametitle{Gamification in CS}
+    \begin{itemize}
+        \item Gamification is effective in CS education through: Real-world scenarios, competitive elements, immediate feedback, interactive activities, and collaboration~\cite{8658524}.
+        \item Gamification is applicable across various educational strategies and contexts~\cite{informatics9040075, hirsh2022, Tan_Chong_2023}.%, enhancing engagement in software measurement processes, software testing education, and integration of modern technology stacks.
+        % \item Innovative tools and techniques include educational chatbots and the use of serious games in secure programming~\cite{10.1145/3350768.3352456,8802503}.
+        % \item The educational impact and methodologies section discusses successful game-based interventions, methodologies for evaluating such interventions, and the Scrum Game Challenge for learning Scrum methodologies.
+        \item Applying gamification can lead to oversimplification and decreased intrinsic motivation~\cite{8658524}.
+        % \item Offline games such as TestSphere and `Would Heu-Risk It?' card games can enhance software testing discussions, collaboration, and strategy design~\cite{testsphere, BibEntry2023Sep}.
+        % \item Methods like `The TestOpsy' and `Blackbox Puzzles' focus on the testing process and improving problem-solving skills~\cite{ChrisKenst2022Jun, BibEntry2022Feb}.
+        % \item A systematic review on game-based learning's impact on argumentation skills emphasizes the importance of game elements, instructional supports, and learning theories for enhancing argumentation skills through game-based environments.
+        % \item Specific games such as `Testable', `Testing Maze', `CleanGame', and 'Code Defenders' are designed to improve aspects like unit testing, functional testing, code smell identification, and mutation testing~\cite{8994972,10.1145/3613372.3614191,10.1145/3350768.3352490,10.1145/3287324.3287471,9155973}.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{CodeDefenders: game to learn mutation testing}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.75\linewidth]{images//games/codedefenders.png}
+    \caption{CodeDefenders, an online game to learn mutation testing}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Testable: gamification of unit testing}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.75\linewidth]{images//games/testable}
+    \caption{Testable - gamified tool to improve unit testing teaching}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Testing Maze: adventure into functional testing}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.75\linewidth]{images//games/testingmaze}
+    \caption{Testing Maze, an educational puzzle game for teaching functional testing concepts and test specifications containing a fantasy narrative}
+\end{figure}
+\end{frame}
+
+\begin{frame}{TestSphere: card deck to support interaction}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{images//games/testsphere}
+    \caption{TestSphere, a card deck to support testers thinking and talking about testing}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Would Heu-risk it?: card deck to share experiences}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.5\linewidth]{images//games/would}
+    \caption{`Would Heu-risk it?' is centered around risk analysis, heuristics, patterns/anti-patterns of software testing}
+\end{figure}
+\end{frame}
+
 \begin{frame}{Game based with Socrative Questioning}
-    Based on Risk Storming~\cite{BibEntry2020Apr}:
+    First steps: a game based on Risk Storming using TestSphere:
     \begin{enumerate}
         \item Starting with a System Under Test.
-        \item Identifying most relevant quality aspects.
-        \item Identifying risks for these aspects, \textbf{supported with socrative questioning}.
+        \item Identifying thee most relevant quality aspects.
+        \item Identifying risks for these aspects, \textbf{supported by socrative questions}.
         \item Mitigate these risks with techniques.
         \item Form an initial testing plan.
     \end{enumerate}
@@ -248,7 +254,6 @@
 \end{frame}
 
 \begin{frame}{Wheel of socrative questions}
-    Functions as an intermediate moderator:
     \begin{figure}
         \centering
         \includegraphics[width=0.5\linewidth]{images//wheel}
@@ -264,12 +269,19 @@
     \end{itemize}
 \end{frame}
 
+\begin{frame}{Pilot Study \& Results}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.4\linewidth]{images//Imagen1.jpg}
+    \end{figure}
+\end{frame}
+
 \section{Future work}
 
 \setbeamertemplate{background canvas}[ou plain]
 \begin{frame}{Future Work}
     \begin{itemize}
-        \item Design of better game mechanics.
+        \item Further develop game mechanics.
         \item Validate and expand the socratic questions.
         \item Trials with students in different educational contexts.
         \item Publish the game (under CC license).
@@ -298,7 +310,7 @@
     \item Gamification is an approach to support this in multiple educational contexts.
     \item We propose abductive reasoning as a basis for the didactic approach.
     \item We did a pilot to gain insights using socrative questioning.
-    \item Game mechanics need to be added.
+    \item Game mechanics need to be further developed.
 \end{itemize}
 
 % \end{minipage}
