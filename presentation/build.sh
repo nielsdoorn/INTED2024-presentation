@@ -9,3 +9,6 @@ lualatex presentation.tex >/dev/null
 echo final lualatex run
 lualatex presentation.tex >/dev/null
 cp presentation.pdf /Users/nielsdoorn/PhD/nielsdoorn.github.io/INTED2024.pdf
+cd Users/nielsdoorn/PhD/nielsdoorn.github.io/
+git commit -a -m "update presentation INTED2024"
+git push
